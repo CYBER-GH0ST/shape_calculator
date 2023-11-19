@@ -36,8 +36,5 @@ jobs:
       run: |
         pytest test_module.py
 
-    - name: Build Docker image
-      run: docker build -t shape-calc:1.0.1 .
-
     - name: Run script in Docker container
-      run: docker run shape-calc:1.0.1
+      run: docker run eliakh0ury/shape_calculator:1.0.1
