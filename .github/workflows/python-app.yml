@@ -37,4 +37,4 @@ jobs:
         pytest test_module.py
 
     - name: Run script in Docker container
-      run: docker run eliakh0ury/shape_calculator:1.0.1
+      run: docker run eliakh0ury/shape_calculator:1.0.2
